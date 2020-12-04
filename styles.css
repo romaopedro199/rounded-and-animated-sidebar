@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 50px 0px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 400px;
+  padding: 20px;
+  background-color: #6246ea;
+  border-radius: 20px;
+}
+
+.menu_items {
+  width: 100%;
+}
+
+.menu_item {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  padding: 20px 10px;
+}
+
+.button {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.button .fas {
+  color: #fff;
+  opacity: .5;
+  transition: all .3s;
+}
+
+.button:hover .fas {
+  opacity: 1;
+}
+
+.menu_item[active] .button .fas {
+  color: #6246ea;
+  opacity: 1;
+}
+
+.menu_hilight {
+  background-color: #fff;
+  position: absolute;
+  left: 17px;
+  top: 0px;
+  height: 43px;
+  width: calc(100% - 17px);
+  border-radius: 35px 0px 0px 35px;
+  z-index: 1;
+  transition: transform .25s ease-in-out;
+}
+
+.menu_hilight:before {
+  content: '';
+  position: absolute;
+  top: -29px;
+  right: -1px;
+  height: 30px;
+  width: 50px;
+  background: radial-gradient(circle at top left, transparent 66%, #fff 70%) bottom right/24px 23px no-repeat;
+}
+
+.menu_hilight:after {
+  content: '';
+  position: absolute;
+  bottom: -22px;
+  right: -2px;
+  height: 30px;
+  width: 50px;
+  background: radial-gradient(circle at bottom left, transparent 64%, #fff 67%) bottom right/24px 23px no-repeat;
+}
