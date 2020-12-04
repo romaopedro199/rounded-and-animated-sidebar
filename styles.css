@@ -20,7 +20,7 @@ body {
   position: relative;
   min-height: 100vh;
   padding: 70px 20px 0px 20px;
-  background-color: #ff493c;
+  background-color: #f19066;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .menu_item[active] .button .fas {
-  color: #ff493c;
+  color: #f19066;
   opacity: 1;
 }
 
