@@ -5,3 +5,6 @@ Menu lateral com animações de clique e bordas arredondadas feito com HTML, CSS
 ## Preview:
 
 <img src="https://romaopedro.com/wp-content/uploads/2020/08/sidebar-com-animacoes-e-bordas-arredondadas-4.gif" alt="Grid responsivo com flexbox" title="Grid responsivo com flexbox" width="600"/>
+
+##### Para artigos, tutoriais e projetos
+Acesse: https://romaopedro.com/
