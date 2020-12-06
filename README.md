@@ -1,10 +1,10 @@
-# Sidebar com animações e bordas arredondadas
+# Rounded and animated sidebar
 
-Menu lateral com animações de clique e bordas arredondadas feito com HTML, CSS e Javascript puro.
+Sidebar with click animations and rounded borders made with HTML, CSS and pure Javascript.
 
 ## Preview:
 
 <img src="https://romaopedro.com/wp-content/uploads/2020/08/sidebar-com-animacoes-e-bordas-arredondadas-4.gif" alt="Grid responsivo com flexbox" title="Grid responsivo com flexbox" width="600"/>
 
-##### Para artigos, tutoriais e projetos
-Acesse: https://romaopedro.com/
+##### Articles, tutorials and projects
+https://romaopedro.com/
